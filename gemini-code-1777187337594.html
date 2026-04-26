@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Prep Hub</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background-color: #f0f2f5; padding: 20px; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; max-width: 1000px; margin: 0 auto; }
+        .card { 
+            background: white; padding: 25px; border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.08); 
+            transition: transform 0.3s, box-shadow 0.3s; text-align: center; border-top: 5px solid #3498db; 
+            text-decoration: none; color: inherit; display: block;
+        }
+        .card:hover { transform: translateY(-10px); box-shadow: 0 12px 20px rgba(0,0,0,0.15); cursor: pointer; }
+        .icon { font-size: 40px; margin-bottom: 10px; }
+        h2 { margin: 10px 0; color: #2c3e50; }
+        p { color: #7f8c8d; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Exam Prep Hub</h1>
+        <p>Select a subject to start your learning journey.</p>
+    </div>
+
+    <div class="grid">
+        <a href="arithmetic.html" class="card">
+            <div class="icon">🧮</div>
+            <h2>Arithmetic</h2>
+            <p>Master percentage, profit & loss, and time-speed-distance.</p>
+        </a>
+
+        <a href="reasoning.html" class="card">
+            <div class="icon">🧩</div>
+            <h2>Reasoning</h2>
+            <p>Sharpen your logic, puzzles, and coding-decoding skills.</p>
+        </a>
+
+        <a href="current-affairs.html" class="card">
+            <div class="icon">🌍</div>
+            <h2>Current Affairs</h2>
+            <p>Daily updates, monthly digests, and top news.</p>
+        </a>
+
+        <a href="static-gk.html" class="card">
+            <div class="icon">📜</div>
+            <h2>Static GK</h2>
+            <p>History, geography, art, and culture essentials.</p>
+        </a>
+
+        <a href="pure-maths.html" class="card">
+            <div class="icon">📐</div>
+            <h2>Pure Maths</h2>
+            <p>Algebra, geometry, trigonometry, and advanced topics.</p>
+        </a>
+
+        <a href="science-tech.html" class="card">
+            <div class="icon">🚀</div>
+            <h2>Science & Tech</h2>
+            <p>Physics, chemistry, biology, and space advancements.</p>
+        </a>
+    </div>
+
+</body>
+</html>
